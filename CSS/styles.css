@@ -116,7 +116,7 @@ overflow: hidden;
 
 /*inicializa seccion 2 */
 .seccion-2{
-    background-color: rgb(230, 166, 253);
+    background-color: rgb(158, 111, 246);
     
     width: 70%;
     height: 100vh;
@@ -268,7 +268,7 @@ margin-left: 50px;
 /*finaliza seccion 2-->*/
 
 .seccion-3{
-  background-color: blueviolet;
+  background-color: rgb(193, 253,253);
   width: 70%;
   height: 100vh;
   display: flex;
@@ -279,10 +279,13 @@ margin-left: 50px;
   
 }
 .article{
-  background-color: rgb(204, 225, 225);
+  background-color: rgb(193, 253,253);
   width: 60%;
   height: 100%;
-  padding: 0 3%;
+  padding: 5%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 }
 .tabla-titulo{
@@ -293,11 +296,14 @@ margin-left: 50px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
+ 
 }
 
 .tabla-titulo h2{
   font-size: 28px;
-color: rgb(0, 0, 0);
+  color: brown;
+
 }
 
 .tabla-titulo h3{
@@ -368,24 +374,173 @@ background-color: rgb(245, 245, 245);
   margin: 0 10px;
 }
 .aside{
-  background-color: brown;
+ background-color: rgb(193, 253, 253);
   width: 40%;
   height: 100%;
   
   
 }
-.mapa{}
-.form-div{}
-.formulario{}
-.input{}
-.testarea{}
-.submit{}
+.mapa{
+  background-color: aqua;
+  width: 100%;
+  height: 35%
+
+}
+
+.mapa iframe{
+  width: 100%;
+  height: 100%;
+  border: 0;
+  
+}
+.form-div{
+background-color: rgb(0, 0, 0);
+width: 100%;
+
+height: 78%;
+
+
+display: flex;
+flex-direction: column;
+justify-content: start;
+align-items: center;
+color: white;
+padding: 15px;
+}
+
+.form-div h3{
+  font-size: 28px;
+  padding: 10px 0;
+}
+
+.form-div p{
+  font-size: 14px;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.formulario{
+width: 100%;
+height: auto;
+display: flex;
+flex-direction: column;
+justify-content: start;
+align-items: center;
+
+}
+.input{
+  width: 100%;
+  height: 35px;
+  margin: 5px 0;
+  outline: none;
+  font-size: 14;
+  padding-left: 7px;
+}
+.testarea{
+  width: 100%;
+height: 80%;
+margin: 5px 0;
+outline: none;
+font-size: 14;
+resize: none;
+}
+.submit{
+
+  width: 50%;
+  height: 45px;
+  margin: 5px;
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.submit:hover{
+  color: rgb(10, 225, 67);
+}
+/*acaba seccion 3-->*/
+
+
+
+/*empieza seccion 4-->*/
+.seccion-4{
+ background-color: rgb(0, 0, 0);
+width: 70%;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+  
+}
+
+.navegacion-footer{
+  background-color: rgb(0, 0, 0);
+width: 70%;
+height: 60px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+
+}
+
+.navegacion-footer a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: blueviolet;
+  padding: 25px 50px;
+}
+
+.navegacion-footer a:hover{
+  color: rgb(0, 0, 0);
+  background-color: rgb(242, 217, 77);
+}
+
+
+.contenedor-s4{
+  background-color: blueviolet;
+  width: 100%;
+  height: calc(100% - 120px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.textos-s4{}
+
+.footer{
+  background-color: green;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color:white;
+}
+
+.footer a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+}
+
+.footer p{
+  
+  font-size: 18px;
+}
 
 
 
 
 
-/*empieza seccion 3-->*/
+
+/*acaba seccion 4-->*/
 
 
 
